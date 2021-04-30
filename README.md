@@ -26,8 +26,15 @@ Keyboard scan as routine for attention to interruption due to change in input pi
 Optionally for the development of the activity, LEDs in PORTC for monitoring variables
 See wiring diagram for keyboard (and optional LEDs) (Links to an external site.)
 
-Also uses a 9600 baudrate
+Using an approximated 9600 baudrate
 
-And the information received must be displayed horizontally and without line breaks.
+The information received form the arduino to the Raspberry must be displayed horizontally and without line breaks on OLED screen.
 Only a line break is printed when it is requested to show the result of the operation
 
+# Diagram connection for matrix keyboard & LEDs
+![image](https://user-images.githubusercontent.com/72686470/116755007-5687d900-a9cf-11eb-849d-4764d88848f6.png)
+
+# Diagram connection for OLED screen
+![image](https://user-images.githubusercontent.com/72686470/116755982-eda16080-a9d0-11eb-8629-f9866bedcec8.png)
+
+The arduino must be connected to the USB0 Port in order to complete the diagram connection.
