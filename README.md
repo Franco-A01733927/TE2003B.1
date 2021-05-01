@@ -2,6 +2,8 @@
 
 Authors : Alan Mondragón & Franco Minutti
 
+Link Video: https://youtu.be/8I7RlhHJA-c
+
 This proyect is a calculator made with an ATMEGA328P, mounted in an arduino,
 and a raspberry pi, running integrated with python Raspberry Pi OS integrated 
 with python, the ATMEGA328P was programed using microchip studio.
